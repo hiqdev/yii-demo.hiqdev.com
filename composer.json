@@ -1,0 +1,79 @@
+{
+    "name": "hiqdev/yii-demo.hiqdev.com",
+    "type": "project",
+    "description": "Yii Framework Demo Project",
+    "keywords": [
+        "yii",
+        "app",
+        "project",
+        "template"
+    ],
+    "homepage": "https://github.com/hiqdev/yii-demo",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/hiqdev/yii-demo",
+        "issues": "https://github.com/hiqdev/yii-demo/issues",
+        "wiki": "https://github.com/hiqdev/yii-demo/wiki",
+        "forum": "http://www.yiiframework.com/forum/"
+    },
+    "authors": [
+        {
+            "name": "Qiang Xue",
+            "role": "Founder and project lead",
+            "email": "qiang.xue@gmail.com",
+            "homepage": "http://www.yiiframework.com/"
+        },
+        {
+            "name": "Alexander Makarov",
+            "role": "Core framework development",
+            "email": "sam@rmcreative.ru",
+            "homepage": "http://rmcreative.ru/"
+        },
+        {
+            "name": "Maurizio Domba",
+            "role": "Core framework development",
+            "homepage": "http://mdomba.info/"
+        },
+        {
+            "name": "Carsten Brandt",
+            "role": "Core framework development",
+            "email": "mail@cebe.cc",
+            "homepage": "http://cebe.cc/"
+        },
+        {
+            "name": "Paul Klimov",
+            "role": "Core framework development",
+            "email": "klimov.paul@gmail.com"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Core framework development",
+            "email": "d.naumenko.a@gmail.com"
+        },
+        {
+            "name": "Boudewijn Vahrmeijer",
+            "role": "Core framework development",
+            "email": "info@dynasource.eu",
+            "homepage": "http://dynasource.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "yiisoft/yii-demo": "^3.0@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii-debug": "^3.0@dev",
+        "hiqdev/composer-config-plugin": "^1.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "hiqdev\\sites\\yiidemo\\hiqdevcom\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}

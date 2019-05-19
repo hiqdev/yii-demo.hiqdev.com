@@ -1,0 +1,10 @@
+{
+  "name": "yii-demo.hiqdev.com",
+  "version": "0.0.1",
+  "description": "Yii Framework Demo Project",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@composer-asset/yiisoft--yii-bootstrap4": "file:./vendor/foxy/composer-asset/yiisoft/yii-bootstrap4",
+    "@composer-asset/yiisoft--yii-jquery": "file:./vendor/foxy/composer-asset/yiisoft/yii-jquery"
+  }
+}
